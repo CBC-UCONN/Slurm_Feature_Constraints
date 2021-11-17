@@ -29,8 +29,8 @@ If required, more sopisicated logical constraints may be created using parenthes
 #SBATCH --partition=general
 #SBATCH --qos=general
 #SBATCH --constraint="cpu_xeon&gpu_M10"
-##SBATCH --mail-type=ALL
-##SBATCH --mail-user=YOUR.EMAIL@uconn.edu
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=YOUR.EMAIL@uconn.edu
 #SBATCH -o %x_%A_%a.out
 #SBATCH -e %x_%A_%a.err
 
