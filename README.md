@@ -59,7 +59,7 @@ gpu_M10        | Nodes with NVIDIA M10 GPUs
 gpu_T4         | Nodes with NVIDIA T4 GPUs
 AVX            | Nodes with AVX CPU instruction set
 AVX2           | Nodes with AVX2 CPU instruction set
-AVX512         | Nodes with CAVX512 CPU instruction set
+AVX512         | Nodes with AVX512 CPU instruction set
 SSE            | Nodes with SSE CPU instruction set
 SSE2           | Nodes with SSE2 CPU instruction set
 SSE3           | Nodes with SSE3 CPU instruction set
