@@ -35,14 +35,9 @@ xeon_E52697    | Nodes with Intel Xeon E52697 CPUs
 xeon_gold_6230 | Nodes with Intel Xeon Gold 6230 CPUs
 gpu_M10        | Nodes with NVIDIA M10 GPUs
 gpu_T4         | Nodes with NVIDIA T4 GPUs
-AES            | Nodes with AES CPU instruction set
 AVX            | Nodes with AVX CPU instruction set
 AVX2           | Nodes with AVX2 CPU instruction set
 AVX512         | Nodes with CAVX512 PU instruction set
-F16C           | Nodes with F16C CPU instruction set
-FMA3           | Nodes with FMA3 CPU instruction set
-FMA4           | Nodes with FMA4 CPU instruction set
-MMX            | Nodes with MMX CPU instruction set
 SSE            | Nodes with SSE CPU instruction set
 SSE2           | Nodes with SSE2 CPU instruction set
 SSE3           | Nodes with SSE3 CPU instruction set
@@ -51,4 +46,3 @@ SSE41          | Nodes with SSE41 CPU instruction set
 SSE42          | Nodes with SSE42 CPU instruction set
 SSE4A          | Nodes with SSE4A CPU instruction set
 SSSE3          | Nodes with SSSE3 CPU instruction set
-XOP            | Nodes with XOP CPU instruction set
