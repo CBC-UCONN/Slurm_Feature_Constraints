@@ -18,6 +18,28 @@ OR               | \|              | #SBATCH --constraint="opteron_8435\|epyc_73
 
 If required, more sopisicated logical constraints may be created using parenthesis and brackets to create grouping of features where parenthesis are used with the `AND` operator and brackets are use with the `OR` operator.
 
+### Example requesting a Xeon node with an M10 GPU
+```bash
+#!/bin/bash
+#SBATCH --job-name=MY_JOB
+#SBATCH -n 1
+#SBATCH -N 1
+#SBATCH -c 1
+#SBATCH --mem=1G
+#SBATCH --partition=general
+#SBATCH --qos=general
+#SBATCH --constraint="cpu_xeon&gpu_M10"
+##SBATCH --mail-type=ALL
+##SBATCH --mail-user=YOUR.EMAIL@uconn.edu
+#SBATCH -o %x_%A_%a.out
+#SBATCH -e %x_%A_%a.err
+
+
+echo "host name : " `hostname`
+nvidia-smi
+
+```
+
 ### Feature List
 
 The following features are currently defined in the Xanadu cluster:
