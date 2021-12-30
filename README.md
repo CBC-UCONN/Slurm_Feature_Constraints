@@ -55,10 +55,10 @@ cpu_xeon       | Nodes with Intel Xeon CPUs
 xeon_E52660    | Nodes with Intel Xeon E52660 CPUs
 xeon_E52697    | Nodes with Intel Xeon E52697 CPUs
 xeon_gold_6230 | Nodes with Intel Xeon Gold 6230 CPUs
-gpu_M10        | Nodes with NVIDIA M10 GPUs
-gpu_T4         | Nodes with NVIDIA T4 GPUs
-gpu_cc_5.2     | Nodes with CUDA Compute Capability of 5.2
-gpu_cc_7.5     | Nodes with CUDA Compute Capability of 7.5
+gpu_M10        | Nodes with NVIDIA Tesla M10 GPUs
+gpu_T4         | Nodes with NVIDIA Tesla T4 GPUs
+gpu_cc_5.2     | Nodes with GPU CUDA Compute Capability of 5.2
+gpu_cc_7.5     | Nodes with GPU CUDA Compute Capability of 7.5
 AVX            | Nodes with AVX CPU instruction set
 AVX2           | Nodes with AVX2 CPU instruction set
 AVX512         | Nodes with AVX512 CPU instruction set
