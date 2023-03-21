@@ -47,16 +47,18 @@ The following features are currently defined in the Xanadu cluster:
 Feature        | Description
 -------------- | --------------
 cpu_amd        | Nodes with AMD CPUs
-opteron_6172   | Nodes with AMD Opteron 6172 CPUs
-opteron_6274   | Nodes with AMD Opteron 6274 CPUs
-opteron_8435   | Nodes with AMD Opteron 8435 CPUs
-epyc_7352      | Nodes with AMD Eypc 7352 CPUs
+opteron_6172   | Nodes with AMD Opteron 6172 CPUs (2.1 GHz)
+opteron_6274   | Nodes with AMD Opteron 6274 CPUs (2.2 GHz)
+opteron_8435   | Nodes with AMD Opteron 8435 CPUs (2.6 GHz)
+epyc_7352      | Nodes with AMD Eypc 7352 CPUs (2.3 Ghz) 
 cpu_xeon       | Nodes with Intel Xeon CPUs
-xeon_E52660    | Nodes with Intel Xeon E52660 CPUs
-xeon_E52697    | Nodes with Intel Xeon E52697 CPUs
-xeon_gold_6230 | Nodes with Intel Xeon Gold 6230 CPUs
-gpu_M10        | Nodes with NVIDIA Tesla M10 GPUs
-gpu_T4         | Nodes with NVIDIA Tesla T4 GPUs
+xeon_E52660    | Nodes with Intel Xeon E52660 CPUs (2.2 GHz) 
+xeon_E52697    | Nodes with Intel Xeon E52697 CPUs (2.7 GHz)
+xeon_gold_6230 | Nodes with Intel Xeon Gold 6230 CPUs (2.1 GHz)
+gpu_M10        | Nodes with NVIDIA Tesla M10 GPUs (CC 5.2)
+gpu_T4         | Nodes with NVIDIA Tesla T4 GPUs (CC 7.5)
+gpu_A10        | Nodes with NVIDIA A10 GPU (CC 8.6)
+gpu_A100       | Nodes with NVIDIA A100 GPU (CC 8.0) (Coming Soon)
 gpu_cc_5.2     | Nodes with GPU CUDA Compute Capability of 5.2
 gpu_cc_7.5     | Nodes with GPU CUDA Compute Capability of 7.5
 AVX            | Nodes with AVX CPU instruction set
